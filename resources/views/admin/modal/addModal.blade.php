@@ -27,9 +27,8 @@
                         <div class="col-sm-7">
                             <select type="text" class="form-control" id="type" name="type">
                                 <option value=""> Pilih Type </option>
-                                <option value="celana">Celana</option>
-                                <option value="baju">Baju</option>
-                                <option value="aksesoris">Aksesoris</option>
+                                <option value="large">Large</option>
+                                <option value="medium">Medium</option>
                             </select>
                         </div>
                     </div>
@@ -38,9 +37,8 @@
                         <div class="col-sm-7">
                             <select type="text" class="form-control" id="kategori" name="kategori">
                                 <option value=""> Pilih Kategori </option>
-                                <option value="Pria">Pria</option>
-                                <option value="Wanita">Wanita</option>
-                                <option value="Anak-anak">Anak-anak</option>
+                                <option value="Minuman">Minuman</option>
+                                <option value="Makanan">Makanan</option>
                             </select>
                         </div>
                     </div>

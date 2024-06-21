@@ -4,7 +4,7 @@
     @if ($best->count() == 0)
         <div class="container"></div>
     @else
-        <h4 class="mt-5">Best Seller</h4>
+        <h4 class="mt-5">Best Menu</h4>
         <div class="content mt-3 d-flex flex-lg-wrap gap-5 mb-5">
             @foreach ($best as $b)
                 <div class="card" style="width:220px;">

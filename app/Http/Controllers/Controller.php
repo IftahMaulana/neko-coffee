@@ -230,14 +230,20 @@ class Controller extends BaseController
     public function loginProses(Request $request)
     {
         Session::flash('error', $request->email);
+    
         $dataLogin = [
             'email' => $request->email,
-            'password'  => $request->password,
+            'password' => $request->password,
         ];
-
+    
         $user = new User;
         $proses = $user::where('email', $request->email)->first();
-
+    
+        if ($proses === null) {
+            Session::flash('error', 'Pengguna tidak ditemukan');
+            return back();
+        }
+    
         if ($proses->is_admin === 0) {
             Session::flash('error', 'Kamu bukan admin');
             return back();

@@ -14,7 +14,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
-                                    Pria
+                                    Minuman
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
@@ -23,15 +23,15 @@
                                     <div class="d-flex flex-column gap-4">
                                         <div class="d-flex flex-row gap-3">
                                             <input type="checkbox" name="kategory" class="kategory" value="celana Pria">
-                                            <span>Celana Pria</span>
+                                            <span>Coffee Latte</span>
                                         </div>
                                         <div class="d-flex flex-row gap-3">
                                             <input type="checkbox" name="kategory" class="kategory" value="baju Pria">
-                                            <span>Baju Pria</span>
+                                            <span>Americano</span>
                                         </div>
                                         <div class="d-flex flex-row gap-3">
                                             <input type="checkbox" name="kategory" class="kategory" value="aksesoris Pria">
-                                            <span>Aksesoris Pria</span>
+                                            <span>Kopi Gula Aren</span>
                                         </div>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
-                                    Wanita
+                                    Makanan
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
@@ -53,49 +53,16 @@
                                             <div class="d-flex flex-row gap-3">
                                                 <input type="checkbox" name="kategory" class="kategory"
                                                     value="celana Wanita">
-                                                <span>Celana Wanita</span>
+                                                <span>Roti Kukus Cokelat</span>
                                             </div>
                                             <div class="d-flex flex-row gap-3">
                                                 <input type="checkbox" name="kategory" class="kategory" value="baju Wanita">
-                                                <span>Baju Wanita</span>
+                                                <span>Roti Kukus Tiramisu</span>
                                             </div>
                                             <div class="d-flex flex-row gap-3">
                                                 <input type="checkbox" name="kategory" class="kategory"
                                                     value="aksesoris Wanita">
-                                                <span>Aksesoris Wanita</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                    aria-controls="flush-collapseThree">
-                                    Anak-anak
-                                </button>
-                            </h2>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <div class="accordion-body p-0">
-                                        <div class="d-flex flex-column gap-4">
-                                            <div class="d-flex flex-row gap-3">
-                                                <input type="checkbox" name="kategory" class="kategory"
-                                                    value="celana anak-anak">
-                                                <span>Celana Anak-anak</span>
-                                            </div>
-                                            <div class="d-flex flex-row gap-3">
-                                                <input type="checkbox" name="kategory" class="kategory"
-                                                    value="baju anak-anak">
-                                                <span>Baju Anak-anak</span>
-                                            </div>
-                                            <div class="d-flex flex-row gap-3">
-                                                <input type="checkbox" name="kategory" class="kategory"
-                                                    value="aksesoris anak-anak">
-                                                <span>Aksesoris Anak-anak</span>
+                                                <span>Roti Kukus Macha</span>
                                             </div>
                                         </div>
                                     </div>
