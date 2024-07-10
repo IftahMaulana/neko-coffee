@@ -23,7 +23,7 @@
                             <input type="number" class="form-control border-0 fs-1" name="harga" id="harga"
                                 value="{{ $x->product->harga }}">
                             <div class="row mb-2">
-                                <label for="qty" class="col-sm-2 col-form-label fs-5">Quantity</label>
+                                <label for="qty" class="col-sm-3 col-form-label fs-5s">Quantity</label>
                                 <div class="col-sm-5 d-flex">
                                     <button class="rounded-start bg-secondary p-2 border border-0 plus"
                                         id="plus">+</button>
@@ -34,26 +34,29 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <label for="price" class="col-sm-2 col-form-label fs-5">Total</label>
-                                <input type="text" class="col-sm-2 form-control w-25 border-0 fs-4 total" name="total"
+                                <label for="price" class="col-sm-2 col-form-label fs-6">Total</label>
+                                <input type="text" class="col-sm-2 form-control w-25 border-0 fs-5 total" name="total"
                                     readonly id="total">
                             </div>
                             <div class="row w-50 gap-1">
-                                <button type="submit" class="btn btn-success col-sm-5">
+                                <button type="submit" class="btn btn-success col-sm-12 mb-2">
                                     <i class="fa fa-shopping-cart"></i>
                                     Checkout
                                 </button>
-                                <button class="btn btn-danger col-sm-5">
-                                    <i class="fa fa-trash-alt"></i>
-                                    Delete
-                                </button>
                             </div>
                         </div>
+                    </form>
+                    <!-- Form Delete -->
+                    <form action="{{ route('deleteFromCart', ['id' => $x->id]) }}" method="POST" class="col-sm-5 d-flex align-items-end">
+                        @csrf
+                        @method('DELETE')
+                        <button type="submit" class="btn btn-danger col-sm-5 mb-2">
+                            <i class="fa fa-trash-alt"></i>
+                            Delete
+                        </button>
                     </form>
                 </div>
             </div>
         @endforeach
     @endif
-
-
 @endsection

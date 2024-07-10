@@ -107,3 +107,16 @@ footer {
     color: white;
     text-align: center;
 }
+
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .brand-part1 {
+        color: #f1c29d;
+    }
+
+    .brand-part2 {
+        color: white;
+    }

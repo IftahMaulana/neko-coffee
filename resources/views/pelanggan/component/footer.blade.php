@@ -3,9 +3,7 @@
         <div class="header-title fs-4 mb-2 font-weight-bolder">
             Coffee NekoNeko
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus repudiandae optio a illo
-            accusantium deserunt officiis distinctio suscipit ut eveniet, deleniti non aut eaque, ipsum
-            quaerat, natus nisi asperiores amet.</p>
+        <p>Selamat datang di Coffee Shop NekoNeko, dimana setiap cangkir diseduh dengan cinta dan setiap kunjungan terasa seperti di rumah sendiri. Manjakan diri dengan kopi buatan kami dan makanan yang lezat, semua disajikan dengan sisi keramahtamahan yang hangat dan imajinasi.</p>
     </div>
     <div class="title-middle w-25">
         <div class="header-title fs-4 mb-2 font-weight-bolder">
@@ -14,15 +12,11 @@
         <ul class="list-unstyled">
             <li>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam dignissimos quasi
-                    nobis autem explicabo! Voluptas!
+                    Selamat datang di Coffee Shop NekoNeko, tempat dimana aramo kopi yang menggoda bertemu dengan suasana hangat dan ramah. Kami bangga menyajikan kopi berkualitas tinggi yang diracik dengan penuh cinta oleh barista berbakat kami. Nikmati secangkir kopi yang kaya rasa, ditemani oleh berbagai pilihan pastry lezat, dalam suasana yang nyaman dan kehangatan. Di Coffee NekoNeko, setiap kunjungan adalah momen istemewa yang selalu ingin anda ulangi.
                 </p>
             </li>
             <li>
                 <p>081219660062</p>
-            </li>
-            <li>
-                p2312321312313
             </li>
         </ul>
     </div>

@@ -49,6 +49,20 @@ class TransaksiController extends Controller
         return redirect('/');
     }
 
+    public function deleteFromCart($id)
+{
+    // Temukan item keranjang berdasarkan ID dan hapus
+    $cartItem = tblCart::find($id);
+
+    if ($cartItem) {
+        $cartItem->delete();
+    }
+
+    // Redirect kembali ke halaman keranjang dengan pesan sukses
+    return redirect()->route('transaksi')->with('success', 'Item berhasil dihapus dari keranjang.');
+}
+
+
     /**
      * Store a newly created resource in storage.
      */

@@ -34,6 +34,8 @@ Route::POST('/checkout/prosesPembayaran', [Controller::class, 'prosesPembayaran'
 Route::get('/checkOut', [Controller::class, 'keranjang'])->name('keranjang');
 Route::get('/checkOut/{id}', [Controller::class, 'bayar'])->name('keranjang.bayar');
 
+Route::delete('/deleteFromCart/{id}', [TransaksiController::class, 'deleteFromCart'])->name('deleteFromCart');
+
 
 Route::get('/admin', [Controller::class, 'login'])->name('login');
 Route::POST('/admin/loginProses', [Controller::class, 'loginProses'])->name('loginProses');
@@ -43,7 +45,6 @@ Route::group(['middleware' => 'admin'], function () {
     Route::get('/admin/dashboard', [Controller::class, 'admin'])->name('admin');
     Route::get('/admin/product', [ProductController::class, 'index'])->name('product');
     Route::get('/admin/logout', [Controller::class, 'logout'])->name('logout');
-    Route::get('/admin/report', [Controller::class, 'report'])->name('report');
     Route::get('/admin/addModal', [ProductController::class, 'addModal'])->name('addModal');
 
     Route::GET('/admin/user_management', [UserController::class, 'index'])->name('userManagement');

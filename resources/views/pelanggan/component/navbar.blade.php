@@ -1,6 +1,8 @@
 <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #A67B5B">
     <div class="container">
-        <a class="navbar-brand" href="#">NekoNeko</a>
+        <a class="navbar-brand" href="#">
+            <span class="brand-part1">Neko</span><span class="brand-part2">Neko</span>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -9,10 +11,7 @@
             <ul class="navbar-nav gap-4">
                 <li class="nav-item">
                     <a class="nav-link {{ Request::path() == '/' ? 'active' : '' }}" aria-current="page"
-                        href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {{ Request::path() == 'shop' ? 'active' : '' }}" href="/shop">Shop</a>
+                        href="/">Home / Shop</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ Request::path() == 'contact' ? 'active' : '' }}" href="/contact">Contact
